@@ -2,7 +2,7 @@
 
 ## MCP란?
 
-![alt text](image.png)
+![alt text](./res/image.png)
 
 - (Model Context Protocol)로 Anthropic에서 '24년 Computer Use 공개 직후 오픈 소스로 공개한 기술. API를 손쉽게 AI Agent와 통합하기 위한 표준화된 규격
 
