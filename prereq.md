@@ -4,7 +4,7 @@
 
 ### 다운로드 및 설치
 
-![alt text](res/image.png)
+![alt text](./res/down.png)
 
 - [다운로드 페이지](https://www.cursor.com/downloads)
 - [설치 가이드 영상](https://www.youtube.com/watch?v=vOn9S4zh1Qs)

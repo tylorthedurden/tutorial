@@ -4,10 +4,11 @@
 
 ![alt text](./res/image.png)
 
-- (Model Context Protocol)로 Anthropic에서 '24년 Computer Use 공개 직후 오픈 소스로 공개한 기술. API를 손쉽게 AI Agent와 통합하기 위한 표준화된 규격
+- (Model Context Protocol)로 Anthropic에서 '24년 11월, Computer Use 공개 직후 오픈 소스로 공개한 기술. API를 손쉽게 AI Agent와 통합하기 위한 표준화된 규격
+- 마치 USB 포트와 유사하게 AI와 다양한 서비스 기능 / 기술을 쉽게 연결하기 위한 목표
 
 - 개방형 표준
-  - Anthropicㅇ듸 Claude 외 Function Call을 지원하는 모든 LLM에서 호환 가능
+  - Anthropic의 Claude 포함 Function Call을 지원하는 모든 LLM과 통합을 지원
   - 다만, Claude가 이러한 MCP를 통한 도구 사용에 가장 뛰어난 정확도를 보인다는 평가
 
 - 참고
@@ -26,11 +27,14 @@
 ## AI Coding Tool
 
 - 범용
-  - Claude Canvas
+  - Claude (Canvas)
   - ChatGPT (Cavas 유사)
   - Manus AI
   - ...
     - 간단한 시각화, Single Page App 개발 및 공유
+    - Claude는 MCP를 통해 다양한 기능 확장을 제공
+    - ChatGPT 및 Manus AI는 Operator 및 유사 Autopilot Agent 기능 제공
+      - 상대적으로 복잡한 기능 구현 지원, 단, 복잡한 Software 개발에는 제한적
 
 - SW 개발 중심 (무료 / Freemium)
   - v0.dev(Vercel)
