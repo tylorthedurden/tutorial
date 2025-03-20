@@ -1,5 +1,24 @@
 # MCP 활용 - 도구를 사용하는 AI Agent 활용
 
+## AI의 한계
+
+- Hallucination
+  - 사실과 다른 정보를 생성
+  - 관련 사실 정보를 Context에 넣어주는 RAG 등의 방식이 사용되기는 하지만 제한적
+  - LLM이 답변을 생성하는 방식에 있어서 한계 (확률적, Non-Optimal)
+- Needle In Haystack
+  - Context에 입력된 정보에 대한 민감도가 Context의 위치에 따라 크게 차이가 남, 즉, 정보의 위치 편향이 존재
+    - Context에 많은 정보를 넣을 수록
+    - 시작부분보다 끝부분의 정보를 더욱 잘 활용하는 경향이 존재함
+- Retrieval
+  - 정보의 의미 비교(Semantic Similarity)의 정확도 한계가 존재
+  - 단순 유사도를 보완하기위한 다양한 기술
+    - Rerank
+    - BM25
+    - ...
+
+> 결론적으로 현재 AI 기술은 이러한 근본적인 한계를 가지고 있으며 산업 Domain 확장에 큰 걸림돌이 되고 있음
+
 ## MCP란?
 
 ![alt text](./res/image.png)
